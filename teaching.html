@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teaching — Niels Linnemann</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="favicon-192.png">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Teaching accordion */
+    .seminar-item {
+      border-bottom: 1px solid var(--border-faint);
+    }
+    .seminar-header {
+      display: grid;
+      grid-template-columns: 110px 1fr 22px;
+      gap: .75rem;
+      align-items: start;
+      padding: 1rem 0;
+      cursor: pointer;
+      user-select: none;
+      transition: color .15s;
+    }
+    .seminar-header:hover .seminar-course { color: var(--accent); }
+    .seminar-term {
+      font-family: var(--font-ui);
+      font-size: .8rem;
+      font-weight: 700;
+      color: var(--accent);
+      padding-top: .15rem;
+    }
+    .seminar-course {
+      font-family: var(--font-serif);
+      font-weight: 600;
+      font-size: .95rem;
+      line-height: 1.35;
+      transition: color .15s;
+    }
+    .seminar-note {
+      font-family: var(--font-ui);
+      font-size: .78rem;
+      color: var(--ink-ghost);
+      margin-top: .2rem;
+    }
+    .seminar-chevron {
+      font-size: 1rem;
+      color: var(--ink-ghost);
+      padding-top: .2rem;
+      transition: transform .2s;
+      text-align: right;
+    }
+    .seminar-item.open .seminar-chevron { transform: rotate(180deg); }
+    .seminar-abstract {
+      display: none;
+      padding: 0 0 1.1rem 0;
+      padding-left: calc(110px + .75rem);
+      font-family: var(--font-ui);
+      font-size: .88rem;
+      color: var(--ink-mid);
+      line-height: 1.65;
+    }
+    .seminar-item.open .seminar-abstract { display: block; }
+    .no-abstract .seminar-header { cursor: default; }
+    .no-abstract .seminar-chevron { visibility: hidden; }
+
+    @media (max-width: 480px) {
+      .seminar-header { grid-template-columns: 90px 1fr 18px; }
+      .seminar-abstract { padding-left: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<main>
+  <div class="page-header fade-up">
+    <h1>Teaching</h1>
+    <p class="subtitle" style="margin-top:.5rem;font-size:.82rem">Click a seminar to read the course description</p>
+  </div>
+
+  <!-- ── Geneva (current position) ── -->
+  <h3>Geneva (since 2023)</h3>
+  <div class="fade-up" id="seminars-geneva">
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">Autumn 2025</span>
+        <span>
+          <div class="seminar-course">Representation in Art and Sciences</div>
+          <div class="seminar-note">Bachelor- and Master-Seminar · with Matej Kratky</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        The aims of science are varied but certainly include prediction, explanation, and modelling
+        of the world. This, in any case, presupposes that science <em>represents</em> the world.
+        In physics, for instance, mathematics serves as a crucial representational device. But what
+        exactly do physicists mean when they describe the world in terms of point particles, fields,
+        and symmetry groups? To what extent should such representations be taken <em>literally</em>,
+        and what other options are there?
+        <br><br>
+        Of course, representations are not unique to science. Painting, photography, and performance
+        seem (at least very often) to be representational activities as well, albeit with different
+        aims, methods, media, and vehicles of representation. To what extent is representation in
+        science and art then related? Can we gain a deeper understanding of representation in one
+        domain by studying it in the other?
+        <br><br>
+        Motivated by questions like this, we set out to explore the role of representation in the
+        sciences and the arts in more detail in this seminar. Concrete topics include: science and
+        art <em>qua</em> representational activities (modelling attitude in the sciences,
+        <em>Bildtheorie</em>, semantic view of scientific theories, measurement as representation);
+        general theories of scientific and artistic representation (similarity and structuralist
+        accounts, inferentialism etc.); analogies between artistic and scientific representation
+        (artifacts of representation: perspective, distortion, and occlusion); non-literal
+        interpretations of models (related to questions of idealisations and approximations).
+      </div>
+    </div>
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">Autumn 2024</span>
+        <span>
+          <div class="seminar-course">Philosophy of AI</div>
+          <div class="seminar-note">Bachelor- and Master-Seminar</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        We explore epistemological and representational questions in current AI systems, focusing
+        particularly on deep neural networks and large language models. Topics include issues of
+        opacity, understanding, and explanation <em>for users</em> of these systems; and issues of
+        internal representation and understanding <em>of these systems</em>. While intriguing from
+        the standpoint of theoretical philosophy, these topics are also important background to
+        tackle practical and applied philosophical questions in the context of AI, such as those
+        related to ethics and policy.
+        <br><br>
+        No prior technical knowledge is required. A thorough reading of the assigned main texts
+        (not of the background reading) before class is compulsory.
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── Bremen ── -->
+  <h3 style="margin-top:2rem">Bremen</h3>
+  <div class="fade-up" id="seminars-bremen">
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">WiSe 2022/23</span>
+        <span>
+          <div class="seminar-course">Metametaphysik</div>
+          <div class="seminar-note">Bachelor-Seminar</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        Der Kurs führt in die Metametaphysik ein und behandelt methodologische und erkenntnistheoretische Fragen zur Metaphysik. Zunächst wird ein möglichst konkreter Zugang über die Metaphysik der Wissenschaft entwickelt, unter anderem anhand von Markus Schrenks <em>Metaphysik der Wissenschaften</em>. Anschließend wird Tuomas Tahkos Einführung in die Metametaphysik gelesen, um Schrenks Konzeption mit Hilfe der dort entwickelten methodischen und erkenntnistheoretischen Prinzipien zu prüfen.
+      </div>
+    </div>
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">WiSe 2022/23</span>
+        <span>
+          <div class="seminar-course">Philosophie der Physik: Raum und Zeit</div>
+          <div class="seminar-note">Bachelor-Seminar</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        Die Philosophie der Physik wird hier als paradigmatisches Beispiel für eine Philosophie von X eingeführt, die sowohl Einsichten aus der Physik für klassische philosophische Probleme fruchtbar macht als auch mittels philosophischer Methoden konzeptuelle Probleme der Physik klärt. Das Seminar vermittelt vor allem einen ersten Eindruck der Philosophie von Raum und Zeit und behandelt dabei zentrale Fragen aus Metaphysik und Wissenschaftstheorie.
+      </div>
+    </div>
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">SoSe 2022</span>
+        <span>
+          <div class="seminar-course">Logischer Empirismus</div>
+          <div class="seminar-note">Bachelor-Blockseminar</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        Der Kurs behandelt die Kernthesen des Logischen Empirismus, die philosophiehistorische Verortung der Bewegung des Wiener Kreises und der Berliner Gruppe sowie das Verständnis und die Einübung logisch-empiristischen Philosophierens unter Berücksichtigung von Logik, Sprache und Wissenschaft.
+      </div>
+    </div>
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">SoSe 2022</span>
+        <span>
+          <div class="seminar-course">Aristoteles' Metaphysik</div>
+          <div class="seminar-note">Bachelor-Seminar</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        Aristoteles' Metaphysik behandelt fundamentale Fragen zu Erklärungsprinzipien und Kategorien unabhängig von spezifischen Domänenkontexten. Der Name Metaphysik geht vermutlich auf die nachträgliche Ordnung seiner Werke als Arbeiten nach der Physik zurück; Aristoteles selbst spricht unter anderem von erster Philosophie. Die zentralen Textstellen werden unter Zuhilfenahme von Auszügen aus Aristoteles' Physik und einschlägigen Kommentaren erschlossen.
+      </div>
+    </div>
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">WiSe 2021/22</span>
+        <span>
+          <div class="seminar-course">Platons Timaios</div>
+          <div class="seminar-note">Bachelor-Seminar</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        Der <em>Timaios</em> gehört zu den späten Dialogen Platons und besteht weitgehend aus einem Monolog über Schöpfungsgeschichte und Natur von Kosmos und Mensch. Der Text gilt als Platons einzig dezidiert naturphilosophischer Dialog. Das Seminar fragt, wie der Timaios als Gesamtwerk zu lesen ist: als ernst gemeinte naturphilosophische Theorie, als Offenlegung allgemeiner metaphysischer Grundprinzipien oder als allegorische Antwort auf die eingangs gestellte politische Frage nach dem Staat in Bewegung.
+      </div>
+    </div>
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">SoSe 2021</span>
+        <span>
+          <div class="seminar-course">Philosophie der Künstlichen Intelligenz</div>
+          <div class="seminar-note">Bachelor- und Master-Seminar · interdisziplinär mit Sozialer Arbeit</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        Das Seminar setzt sich mit verschiedenen Formen Künstlicher Intelligenz und deren Auswirkungen auf gesellschaftliche und soziale Fragen auseinander. Studierende der Sozialen Arbeit arbeiten dabei interdisziplinär mit Studierenden der Philosophie zusammen. Im Mittelpunkt stehen das Wesen Künstlicher Intelligenz und künstlichen Bewusstseins, Transparenz und Verständnis von Algorithmen und intelligenten Systemen sowie ethische Fragen der Aufgabenübertragung an solche Systeme.
+      </div>
+    </div>
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">SoSe 2021</span>
+        <span>
+          <div class="seminar-course">Philosophie der Quantenmechanik</div>
+          <div class="seminar-note">Bachelor- und Master-Seminar</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        Ausgangspunkt des Seminars ist das Messproblem der Quantenmechanik: Der Formalismus erlaubt Superpositionszustände, während wir in der makroskopischen Welt keine solchen Überlagerungen zu beobachten scheinen. Behandelt werden die daraus hervorgehenden Interpretationen der Quantenmechanik, darunter auch die Viele-Welten-Interpretation, sowie ihre ontologischen und theoretischen Charakteristika. Im Vordergrund stehen außerdem Querverbindungen zu wissenschaftstheoretischen Fragen wie empirischer Unterbestimmtheit und zu metaphysischen Fragen wie Zufall, Determinismus und Emergenz.
+      </div>
+    </div>
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">WiSe 2020/21</span>
+        <span>
+          <div class="seminar-course">Einführung in die Erkenntnistheorie</div>
+          <div class="seminar-note">Bachelor-Blockseminar</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        Das Seminar führt in die zentralen Fragen und Positionen der Erkenntnistheorie ein: Was ist Wissen, können wir überhaupt etwas wissen, welche Quellen von Wissen gibt es und wodurch ist Wissen gerechtfertigt? Am Ende werden zudem aktuelle Probleme der Erkenntnistheorie wie Verschwörungstheorien, Filterblasen, Zeugenberichte und das Simulationsargument thematisiert und mit den klassischen Problemen in Beziehung gesetzt.
+      </div>
+    </div>
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">WiSe 2020/21</span>
+        <span>
+          <div class="seminar-course">Theorienentwicklung und -verfolgung</div>
+          <div class="seminar-note">Master-Blockseminar</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        Das Seminar untersucht das wissenschaftstheoretische Themenfeld der Entwicklung und Verfolgung von wissenschaftlichen Theorien und hinterfragt das verbreitete Urteil, dass sich hier nur soziologische, psychologische oder ökonomische Aspekte beschreiben lassen. Behandelt werden Popper, Kuhn, Lakatos und Feyerabend sowie systematische Ansätze zur Theorienentwicklung, Heuristiken, Kreativität, und Werte bei der Auswahl empirisch unbestätigter Hypothesen.
+      </div>
+    </div>
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">SoSe 2020</span>
+        <span>
+          <div class="seminar-course">Einführung in die Philosophie des Geistes</div>
+          <div class="seminar-note">Bachelor-Seminar</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        In der Philosophie des Geistes werden grundsätzliche systematische Fragen zum Wesen und zur Erkennbarkeit von Geist und Seele und ihrer Beziehung zum körperlich-Physikalischen erörtert. Im Seminar werden anhand von Primärtexten zentrale Themen wie das Leib-Seele-Problem, Formen von Dualismus und Monismus, Willensfreiheit, Intentionalität und Qualia sowie das Problem des Fremdpsychischen einführend behandelt.
+      </div>
+    </div>
+
+    <div class="seminar-item">
+      <div class="seminar-header" onclick="toggleSeminar(this)">
+        <span class="seminar-term">SoSe 2020</span>
+        <span>
+          <div class="seminar-course">Metaphysik der Wissenschaften</div>
+          <div class="seminar-note">Master-Seminar</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+      <div class="seminar-abstract">
+        Das Seminar stellt die Idee einer naturalistischen Metaphysik vor, die metaphysische Fragen und Antworten an unseren besten wissenschaftlichen Theorien — insbesondere der Physik — orientiert. Behandelt werden Themen wie Raum und Zeit, Wahrscheinlichkeiten, Kausalität und Fundamentalität unter Rückgriff auf naturwissenschaftliche Erkenntnisse; gegen Ende kommen meta-metaphysische Fragen zum Wesen und Nutzen naturalistischer Metaphysik hinzu.
+      </div>
+    </div>
+
+  </div><!-- /seminars-bremen -->
+
+  <!-- ── Geneva (PhD position) ── -->
+  <h3 style="margin-top:2rem">Geneva (PhD position, 2018)</h3>
+  <div class="fade-up" id="seminars-geneva-early">
+
+    <div class="seminar-item no-abstract">
+      <div class="seminar-header">
+        <span class="seminar-term">Autumn 2018</span>
+        <span>
+          <div class="seminar-course">Philosophy of Cosmology</div>
+          <div class="seminar-note">Master-Seminar · with Karen Crowther and Chris Wüthrich</div>
+        </span>
+        <span class="seminar-chevron">⌄</span>
+      </div>
+    </div>
+
+  </div><!-- /seminars-geneva-early -->
+
+</main>
+
+<div id="footer-placeholder"></div>
+<script src="nav.js"></script>
+<script>
+  function toggleSeminar(header) {
+    const item = header.closest('.seminar-item');
+    item.classList.toggle('open');
+  }
+</script>
+</body>
+</html>

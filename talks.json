@@ -1,0 +1,298 @@
+[
+  {
+    "date": "05-06/2025",
+    "title": "Reading group series on Constructive Axiomatics for Spacetime Physics",
+    "event": "Invited speaker, LSE Bootcamp reading group",
+    "location": "Online",
+    "type": "academic"
+  },
+  {
+    "date": "03/2025",
+    "title": "Interpreting gravity through analogy",
+    "event": "Invited talk, QSimFP Community Workshop",
+    "location": "Nottingham",
+    "type": "academic"
+  },
+  {
+    "date": "02/2026",
+    "title": "A philosophical look at the particle physics approach to GR",
+    "event": "Invited talk, Black Hole Initiative Foundations Seminar",
+    "location": "Harvard University",
+    "type": "academic",
+    "videoUrl": "https://www.youtube.com/watch?v=SgIliMPsoP8"
+  },
+  {
+    "date": "02/2025",
+    "title": "General relativity from thermodynamics?",
+    "event": "Invited talk via Zoom, joint work with Dominic Dold, Astrophysics Research Center of the Open University",
+    "location": "The Open University of Israel",
+    "type": "academic"
+  },
+  {
+    "date": "01/2026",
+    "title": "On the local validity of SR in GR",
+    "event": "Invited talk via Zoom, together with James Read, Black Hole Initiative Foundations Seminar",
+    "location": "Harvard University",
+    "type": "academic"
+  },
+  {
+    "date": "09/2024",
+    "title": "Rethinking the Anthropic Principle",
+    "event": "Invited talk, joint work with Feraz Azhar, Carl Friedrich von Weizsaecker Kolloquium",
+    "location": "University of Tuebingen",
+    "type": "academic"
+  },
+  {
+    "date": "09/2023",
+    "title": "Can AI help Humeans? The laws of nature debate in light of automated scientific discovery",
+    "event": "Invited talk, joint work with Robert Michels, HPS Seminar",
+    "location": "University of Copenhagen",
+    "type": "academic"
+  },
+  {
+    "date": "07/2023",
+    "title": "The local validity of special relativity from an EFT-inspired perspective",
+    "event": "Invited talk, joint work with James Read and Nicholas Teh, Workshop on Foundations of Physics",
+    "location": "University of Oxford",
+    "type": "academic"
+  },
+  {
+    "date": "07/2023",
+    "title": "What makes black hole models physically reasonable?",
+    "event": "Contributed talk, joint work with Yichen Luo and Chris Smeenk, Foundations of Physics",
+    "location": "Bristol",
+    "type": "academic"
+  },
+  {
+    "date": "06/2023",
+    "title": "The problem of pregeometry and selective realism",
+    "event": "Invited talk, together with Kian Salimkhani, Centre for Philosophy and the Sciences",
+    "location": "University of Oslo",
+    "type": "academic"
+  },
+  {
+    "date": "03/2023",
+    "title": "General relativity as a classical spin-2 theory?",
+    "event": "Invited talk, Oxford Philosophy of Physics Seminar",
+    "location": "University of Oxford",
+    "type": "academic",
+    "videoUrl": "https://youtu.be/LMr3EGB6GW4"
+  },
+  {
+    "date": "01/2023",
+    "title": "Die Viele-Welten-Interpretation der Quantenmechanik",
+    "event": "Public lecture after a screening of Everything Everywhere All at Once",
+    "location": "Campus-Kino Bremen",
+    "type": "public"
+  },
+  {
+    "date": "11/2022",
+    "title": "General relativity as a classical spin-2 theory?",
+    "event": "Contributed talk, Philosophy of Science Association conference 2022",
+    "location": "Pittsburgh",
+    "type": "academic"
+  },
+  {
+    "date": "09/2022",
+    "title": "Constructivist approaches to the epistemology of spacetime",
+    "event": "Invited talk, Philosophy of Scientific Thought Initiative",
+    "location": "University of Notre Dame",
+    "type": "academic"
+  },
+  {
+    "date": "06/2022",
+    "title": "Discussion on \"Beyond the empirical\"",
+    "event": "Invited panelist with Enno Fischer and Kian Salimkhani, History, Philosophy & Sociology of Cosmology & Astroparticle Physics Conference",
+    "location": "Bonn",
+    "type": "academic"
+  },
+  {
+    "date": "06/2022",
+    "title": "A new metaphysics of spacetime",
+    "event": "Contributed talk, 1st Bremen-Cologne Workshop on Time",
+    "location": "Cologne",
+    "type": "academic"
+  },
+  {
+    "date": "06/2022",
+    "title": "Metaphysics of spacetime, and the role of spacetime functionalism",
+    "event": "Invited talk, Metaphysics Beyond Spacetime conference",
+    "location": "Ovronnaz",
+    "type": "academic"
+  },
+  {
+    "date": "04/2022",
+    "title": "Determinismus und Vorhersagbarkeit im Lichte der Chaostheorie",
+    "event": "Ceremonial colloquium lecture in honour of Academy President Prof. Dr. Kreuzer",
+    "location": "Akademie der Wissenschaften in Hamburg",
+    "type": "public"
+  },
+  {
+    "date": "04/2022",
+    "title": "On the philosophy of chaos theory",
+    "event": "Invited talk in honor of Prof. Dr.-Ing. Erwin Kreuzer's life work",
+    "location": "Hamburg Academy of Sciences and Humanities",
+    "type": "academic"
+  },
+  {
+    "date": "04/2022",
+    "title": "Discussion on \"Analogue confirmation\"",
+    "event": "Invited panelist with Radin Dardashti and Grace Field, Bonn HPP Research Seminar",
+    "location": "Bonn",
+    "type": "academic"
+  },
+  {
+    "date": "09/2021",
+    "title": "Are there no grand problems of spacetime emergence?",
+    "event": "Contributed talk, EPSA 2021 symposium contribution",
+    "location": "Turin",
+    "type": "academic"
+  },
+  {
+    "date": "2021",
+    "title": "Spacetime functionalism: an overview",
+    "event": "New Directions in Philosophy of Cosmology Workshop",
+    "location": "Rotman Institute, London, Ontario",
+    "type": "academic"
+  },
+  {
+    "date": "09/2020",
+    "title": "Sensible metaphysics without a final physical theory",
+    "event": "Contributed talk, joint talk with Niels Martens, ERC metascience project workshop",
+    "location": "Bristol",
+    "type": "academic"
+  },
+  {
+    "date": "08/2020",
+    "title": "The modal status of the laws of nature. Tahko's hybrid view and the kinematical/dynamical distinction",
+    "event": "Contributed pre-recorded talk with Salim Hireche, Robert Michels and Lisa Vogt, ECAP10",
+    "location": "Utrecht / online",
+    "type": "academic"
+  },
+  {
+    "date": "06/2020",
+    "title": "Philosophy of Quantum Gravity as a Philosophy of Generation",
+    "event": "Invited talk, Oxford Philosophy of Physics Seminar",
+    "location": "University of Oxford",
+    "type": "academic"
+  },
+  {
+    "date": "03/2020",
+    "title": "Metaphysically Necessary Laws in Physics",
+    "event": "Invited talk, ERC-FraMEPhys project",
+    "location": "Birmingham",
+    "type": "academic"
+  },
+  {
+    "date": "2020",
+    "title": "Non-empirical robustness arguments in quantum gravity",
+    "event": "Inductive Metaphysics Workshop",
+    "location": "University of Bonn",
+    "type": "academic"
+  },
+  {
+    "date": "09/2019",
+    "title": "Quantisation as a method of discovery: the nature and prospects of quantisation approaches to quantum gravity",
+    "event": "Contributed talk, EPSA 2019",
+    "location": "Geneva",
+    "type": "academic"
+  },
+  {
+    "date": "07/2019",
+    "title": "Quantisation as a method of discovery",
+    "event": "Contributed talk, BSPS 2019",
+    "location": "Durham",
+    "type": "academic"
+  },
+  {
+    "date": "04/2019",
+    "title": "On Metaphysically Necessary Laws in Physics",
+    "event": "Invited talk, DFG Inductive Metaphysics workshop on Counterpossibles, Counternomics and Causal Theories of Properties",
+    "location": "Cologne",
+    "type": "academic"
+  },
+  {
+    "date": "02/2019",
+    "title": "On Metaphysically Necessary Laws in Physics",
+    "event": "Contributed talk, German Society for Philosophy of Science",
+    "location": "Cologne",
+    "type": "academic"
+  },
+  {
+    "date": "09/2018",
+    "title": "Does GR need an interpretation?",
+    "event": "Contributed talk, Swiss Society for Logic and Philosophy of Science Annual Meeting 2018",
+    "location": "Lugano",
+    "type": "academic"
+  },
+  {
+    "date": "03/2018",
+    "title": "Have We Lost Spacetime on the Way? Narrowing the Gap Between General Relativity and Quantum Gravity",
+    "event": "Contributed talk, joint work with Baptiste Le Bihan, DPG Fruehjahrstagung",
+    "location": "Berlin",
+    "type": "academic"
+  },
+  {
+    "date": "09/2017",
+    "title": "Quo vadis GR? Indications for an Emergent Nature of GR",
+    "event": "Contributed talk with Manus Visser, Thinking about Space and Time: 100 Years of Applying and Interpreting General Relativity",
+    "location": "Bern",
+    "type": "academic"
+  },
+  {
+    "date": "09/2017",
+    "title": "Why the Metric Field and Its Dynamics Should Be Emergent",
+    "event": "Contributed talk, joint work with Manus Visser, EPSA 2017",
+    "location": "Exeter",
+    "type": "academic"
+  },
+  {
+    "date": "08/2017",
+    "title": "On principles of theory construction and justification in quantum gravity",
+    "event": "Contributed talk, joint work with Karen Crowther, ECAP 9",
+    "location": "LMU Munich",
+    "type": "academic"
+  },
+  {
+    "date": "07/2017",
+    "title": "The role of UV completion in the search for quantum gravity",
+    "event": "Contributed talk with Karen Crowther, BSPS 2017",
+    "location": "Edinburgh",
+    "type": "academic"
+  },
+  {
+    "date": "02/2017",
+    "title": "How not to establish the non-renormalizability of gravity",
+    "event": "Contributed poster presentation, Quantum Spacetime and the Renormalization Group conference",
+    "location": "Lorentz Center, Leiden",
+    "type": "academic"
+  },
+  {
+    "date": "12/2016",
+    "title": "On principles of theory construction and justification in quantum gravity",
+    "event": "Contributed talk, together with Karen Crowther, Reasoning in Physics Workshop",
+    "location": "Center for Advanced Studies, Munich",
+    "type": "academic"
+  },
+  {
+    "date": "06/2016",
+    "title": "The Renormalizability of Gravity",
+    "event": "Student talk, joint work with Juliuz Doboszewski, International Summer Institute in Philosophy of Physics",
+    "location": "Williams Bay, Wisconsin",
+    "type": "academic"
+  },
+  {
+    "date": "05/2016",
+    "title": "The Renormalizability of Gravity",
+    "event": "Contributed talk, together with Juliuz Doboszewski, Philosophy of Physics Workshop",
+    "location": "University of Bern",
+    "type": "academic"
+  },
+  {
+    "date": "11/2015",
+    "title": "Emergent Gravity vs. Quantum General Relativity?",
+    "event": "Contributed talk, Philosophy of Physics graduate seminar",
+    "location": "University of Oxford",
+    "type": "academic"
+  }
+]

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- warm cream background circle -->
+  <circle cx="16" cy="16" r="16" fill="#f0ebe1"/>
+  <!-- "N" in deep terracotta, slightly condensed serif feel via paths -->
+  <text
+    x="16" y="22.5"
+    font-family="Georgia, serif"
+    font-size="19"
+    font-weight="700"
+    fill="#7a3020"
+    text-anchor="middle"
+    letter-spacing="-0.5">N</text>
+  <!-- thin arc at top to suggest globe/orbit — philosophy of physics motif -->
+  <path d="M 7 10 Q 16 4 25 10" stroke="#7a3020" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.55"/>
+</svg>
