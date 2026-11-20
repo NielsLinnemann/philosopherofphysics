@@ -28,6 +28,7 @@
           <div class="talk-event">${escapeHtml(t.event)}</div>
           ${t.location ? `<div class="talk-location">${escapeHtml(t.location)}</div>` : ''}
           ${t.videoUrl ? `<a class="talk-video-link" href="${escapeHtml(t.videoUrl)}" target="_blank" rel="noopener">Video</a>` : ''}
+          ${t.pdfUrl ? `<a class="talk-pdf-link" href="${escapeHtml(t.pdfUrl)}" target="_blank" rel="noopener">Slides</a>` : ''}
         </div>`;
       container.appendChild(li);
     });

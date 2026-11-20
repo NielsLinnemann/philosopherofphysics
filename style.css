@@ -558,6 +558,17 @@ h3 {
   text-transform: uppercase;
   color: var(--accent-2);
 }
+.talk-pdf-link {
+  display: inline-flex;
+  margin-top: .6rem;
+  margin-left: 1rem;
+  font-family: var(--font-ui);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+}
 
 .video-grid {
   display: grid;
